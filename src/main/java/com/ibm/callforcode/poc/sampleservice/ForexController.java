@@ -29,4 +29,17 @@ public class ForexController {
     
     return exchangeValue;
   }
+  
+  @GetMapping("/")
+  public String retrieveExchangeValue
+    (){
+    
+    String exchangeValue = 
+        "Hello World";
+    
+    /*exchangeValue.setPort(
+        Integer.parseInt(environment.getProperty("local.server.port")));*/
+    
+    return exchangeValue;
+  }
 }
